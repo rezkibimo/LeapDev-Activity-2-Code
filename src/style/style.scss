@@ -1,4 +1,4 @@
-// Global Variable 
+// Global Variable
 $font-stack: Helvetica, sans-serif;
 
 $primary-vivid-blue: #0e5fe3;
@@ -16,7 +16,7 @@ $lawconnect-gradient: linear-gradient(
 
 html {
   padding: none;
-  font: 100% $font-stack;
+  margin: 1em;
 }
 
 // Global Variable End
@@ -26,19 +26,19 @@ html {
     no-repeat padding-box;
 }
 
-
-
-
+.SectionHeader {
+  color: $secondary-dark-blue;
+  font-size: 24px;
+  text-align: center;
+}
 
 // CardSection Components CSS
 
 .card-layout {
   width: 100%;
-
   display: flex;
   gap: 68px;
   flex-wrap: wrap;
-
   justify-content: center;
 }
 
@@ -59,7 +59,7 @@ html {
     padding-left: 24px;
     padding-right: 24px;
     color: $primary-black;
-    font-size: 16px;
+    font-size: 14px;
     letter-spacing: 0.08px;
 
     h4 {

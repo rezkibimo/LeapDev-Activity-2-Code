@@ -7,10 +7,10 @@ export class CardSection extends Component {
         return (
             <div>
 
-                <h1>CardSection</h1>
+                <div>
+                    <h2 className='SectionHeader'>One Solution Designed to Make Your Firm More Money</h2>
+                </div>
 
-
-                <h2>One Solution Designed to Make Your Firm More Money</h2>
                 <section class="card-layout">
                     <div class="card">
                         <StaticImage
