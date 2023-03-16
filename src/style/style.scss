@@ -1,21 +1,24 @@
 $font-stack: Helvetica, sans-serif;
 
-$primary-vivid-blue: #0E5FE3;
+$primary-vivid-blue: #0e5fe3;
 $primary-black: #191919;
-$primary-light-greyish-blue: #F6F7F8;
+$primary-light-greyish-blue: #f6f7f8;
 
-$secondary-dark-blue: #0A49AF;
-$secondary-sky-blue: #2AB7FE;
+$secondary-dark-blue: #0a49af;
+$secondary-sky-blue: #2ab7fe;
 
-
-$lawconnect-gradient: linear-gradient(to right, $primary-vivid-blue , $secondary-dark-blue);
+$lawconnect-gradient: linear-gradient(
+  to right,
+  $primary-vivid-blue,
+  $secondary-dark-blue
+);
 
 html {
   padding: none;
   font: 100% $font-stack;
 }
 
-.layout {
+.card-layout {
   width: 100%;
 
   display: flex;
@@ -34,7 +37,12 @@ html {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   max-width: 322px;
+  max-height: 320px;
   img {
     max-width: 322px;
+    max-height: 160px;
+  }
+  .card-body {
+    font-style: bold;
   }
 }

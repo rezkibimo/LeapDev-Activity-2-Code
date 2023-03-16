@@ -1,41 +1,47 @@
 import * as React from "react"
 import "../style/style.scss"
-import ImageTest from "../images/lc-greater-collab@2x.jpg"
+import { StaticImage } from "gatsby-plugin-image"
 
 export default function Home() {
   return <div>
 
     <div>
 
-      <h2>Card</h2>
+    <h2>One Solution Designed to Make Your Firm More Money</h2>
 
-      <section class="layout">
+      <section class="card-layout">
+
 
         <div class="card">
-          <img 
-          src={ImageTest} 
-          srcset=
-  "{ImageTest} 1x, {ImageTest} 2x"
-          alt="Logo" />
-          <div class="container">
+          <StaticImage
+            src="../images/lc-safe-docs@2x.jpg"
+            alt="A dinosaur"
+          />
+          <div class="card-body">
             <h4><b>Safe Documents</b></h4>
-            <p>Architect & Engineer</p>
+            <p>LawConnect stores its data on servers provided by Amazon Web Services and is safer than email.</p>
           </div>
         </div>
 
         <div class="card">
-          <img src={ImageTest} alt="Logo" />
-          <div class="container">
+          <StaticImage
+            src="../images/lc-work-remote@2x.jpg"
+            alt="A dinosaur"
+          />
+          <div class="card-body">
             <h4><b>Work remotely</b></h4>
-            <p>Architect & Engineer</p>
+            <p>You can sign in to LawConnect and view, collaborate and share your documents from anywhere..</p>
           </div>
         </div>
 
         <div class="card">
-          <img src={ImageTest} alt="Logo" />
-          <div class="container">
+          <StaticImage
+            src="../images/lc-greater-collab@2x.jpg"
+            alt="A dinosaur"
+          />
+          <div class="card-body">
             <h4><b>Greater Collaboration</b></h4>
-            <p>Architect & Engineer</p>
+            <p>Collaborate on documents with clients, lawyers and other parties with LawConnect’s Comment and Reply.</p>
           </div>
         </div>
 
