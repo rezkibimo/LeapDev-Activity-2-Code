@@ -17,7 +17,6 @@ module.exports = {
         defaults: {
           placeholder: `dominantColor`,
           quality: 50,
-          srcSetBreakpoints: [ 200, 340, 520, 890 ],
         }
       }
     },
