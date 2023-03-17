@@ -2,7 +2,7 @@ import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 
 import "../style/index.scss"
-import CardSection from "../components/cardSection"
+import CardSection from "../components/CardSection"
 import IndexJumbotron from "../components/indexJumbotron"
 
 export default function Home() {
