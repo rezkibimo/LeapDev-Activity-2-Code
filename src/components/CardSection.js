@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { StaticImage } from "gatsby-plugin-image"
 import "../style/cardSection.scss"
 
+
 export class CardSection extends Component {
     render() {
         return (
@@ -15,11 +16,6 @@ export class CardSection extends Component {
                 <section className="card-layout">
                     <div className="card">
                         <div className='card-image'>
-                            <StaticImage
-                                src="../images/lc-safe-docs@2x.jpg"
-                                alt="Safe Documents"
-                                layout='constrained'
-                            />
                         </div>
 
                         <div className="card-body">
@@ -29,11 +25,6 @@ export class CardSection extends Component {
                     </div>
 
                     <div className="card">
-                        <StaticImage
-                            src="../images/lc-work-remote@2x.jpg"
-                            alt="Work remotely"
-                            layout='constrained'
-                        />
                         <div className="card-body">
                             <h4>Work remotely</h4>
                             <p>You can sign in to LawConnect and view, collaborate and share your documents from anywhere..</p>
@@ -41,11 +32,6 @@ export class CardSection extends Component {
                     </div>
 
                     <div className="card">
-                        <StaticImage
-                            src="../images/lc-greater-collab@2x.jpg"
-                            alt="Greater Collaboration"
-                            layout='constrained'
-                        />
                         <div className="card-body">
                             <h4>Greater Collaboration</h4>
                             <p>Collaborate on documents with clients, lawyers and other parties with LawConnect’s Comment and Reply.</p>

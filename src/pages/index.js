@@ -9,19 +9,15 @@ export default function Home() {
   return <div>
 
     <div className="headerSize">
-      <nav class="menu">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
 
       <header class="twoColoumnLayoutHeader">
 
         <div className="headerTextBox">
-          <h1 className="sectionTopHeader">The place to work with your lawyer</h1>
+          <h1 className="sectionTopHeader">The place to work</h1>
+          <h1 className="sectionTopHeader"> with your lawyer</h1>
+          <br></br>
           <p>Your lawyer uses LawConnect to share information with you about your legal case in a privite, convenient and secure way.</p>
+          <br></br>
           <button>Create Free Account</button>
         </div>
 
