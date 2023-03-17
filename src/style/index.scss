@@ -1,0 +1,43 @@
+@import "./global.scss";
+
+.background {
+  background: transparent linear-gradient(0deg, #0a49af 0%, #0e5fe3 100%) 0% 0%
+    no-repeat padding-box;
+}
+
+.SectionHeader {
+  color: $secondary-dark-blue;
+  font-size: 24px;
+  text-align: center;
+}
+
+.twoColoumnLayout {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  gap: 64px;
+  flex-wrap: wrap;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.maxPW {
+  max-width: 445px;
+}
+
+.firstColor {
+  background: #f6f7f8 0% 0% no-repeat padding-box;
+}
+
+header {
+  background-color: $primary-vivid-blue;
+  text-align: center;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+footer {
+  height: 10vh;
+  background-color: $primary-black;
+}

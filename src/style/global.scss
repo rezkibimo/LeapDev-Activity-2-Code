@@ -1,0 +1,30 @@
+$font-stack: Helvetica, sans-serif;
+
+$primary-vivid-blue: #0e5fe3;
+$primary-black: #191919;
+$primary-light-greyish-blue: #f6f7f8;
+
+$secondary-dark-blue: #0a49af;
+$secondary-sky-blue: #2ab7fe;
+
+$lawconnect-gradient: linear-gradient(
+  to right,
+  $primary-vivid-blue,
+  $secondary-dark-blue
+);
+
+.sectionHeader {
+  color: $secondary-dark-blue;
+  font-size: 36px;
+  text-align: left;
+}
+
+html {
+  padding: none;
+  margin: none;
+}
+
+.sectionContainer{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
