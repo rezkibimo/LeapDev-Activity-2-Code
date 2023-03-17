@@ -1,0 +1,23 @@
+@import "./global.scss";
+
+.twoColoumnLayout {
+  width: 100vw;
+  height: max-content;
+  display: flex;
+  gap: 128px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgColoumn {
+  width: 445px;
+}
+
+.maxPWidth {
+  max-width: 445px;
+}
+
+.firstColor {
+  background: $primary-light-greyish-blue;
+}

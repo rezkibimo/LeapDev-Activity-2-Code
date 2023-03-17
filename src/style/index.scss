@@ -12,29 +12,35 @@
 }
 
 .twoColoumnLayout {
-  width: 100%;
+  width: 100vw;
   height: max-content;
   display: flex;
-  gap: 64px;
+  gap: 128px;
   flex-wrap: wrap;
-
   justify-content: center;
   align-items: center;
 }
 
-.maxPW {
+.imgColoumn {
+  width: 445px;
+}
+
+.maxPWidth {
   max-width: 445px;
 }
 
 .firstColor {
-  background: #f6f7f8 0% 0% no-repeat padding-box;
+  background: $primary-light-greyish-blue;
 }
 
 header {
-  background-color: $primary-vivid-blue;
+  background: linear-gradient(90deg, rgba(14,95,227,1) 0%, rgba(10,73,175,1) 100%);
   text-align: center;
   padding-top: 64px;
   padding-bottom: 64px;
+  div{
+    flex-wrap: wrap-reverse;
+  }
 }
 
 footer {

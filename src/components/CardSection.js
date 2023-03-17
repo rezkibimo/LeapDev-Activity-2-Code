@@ -8,7 +8,7 @@ export class CardSection extends Component {
             <div className='sectionContainer'>
 
                 <div>
-                    <h1 className='sectionHeader'>One Solution Designed to Make Your Firm More Money</h1>
+                    <h1 className='cardHeader'>One Solution Designed to Make Your Firm More Money</h1>
                     <br></br>
                 </div>
 
