@@ -17,5 +17,8 @@ html {
   font-family: 'Nunito', sans-serif;
   font-weight: 400;
   letter-spacing: 0.08px;
-  
+  overflow: -moz-scrollbars-vertical;
+overflow-x: hidden;
+overflow-y: auto;
+
 }

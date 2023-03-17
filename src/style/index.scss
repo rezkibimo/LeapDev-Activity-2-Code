@@ -7,11 +7,17 @@
 
 .headerSize {
   min-height: 75vh;
-  background: linear-gradient(
-    90deg,
-    $primary-vivid-blue 0%,
-    $secondary-dark-blue 100%
-  );
+  background-image: url("../images/LawConnect-lcon-RGB.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right;
+  position: relative;
+
+  // background: linear-gradient(
+  //   90deg,
+  //   $primary-vivid-blue 0%,
+  //   $secondary-dark-blue 100%
+  // );
 }
 
 header {
@@ -20,8 +26,8 @@ header {
   padding-bottom: 64px;
   div {
     flex-wrap: wrap-reverse;
-    margin-left: 5%;
-    margin-right: 5%;
+    // margin-left: 5%;
+    // margin-right: 5%;
   }
   button {
     color: white;
@@ -38,7 +44,7 @@ header {
   width: 100vw;
   height: max-content;
   display: flex;
-  gap: 10vw;
+  // gap: 10vw;
   flex-wrap: wrap-reverse;
   justify-content: center;
   align-items: left;
@@ -63,3 +69,20 @@ footer {
   height: 10vh;
   background-color: $primary-black;
 }
+
+@media screen and (max-width: 768px) {
+header{
+  button{
+    color: white;
+    font-weight: 700;
+    background-color: $secondary-sky-blue;
+    display: inline-block;
+    width: 290px;
+    height: 48px;
+    border-radius: 5px;
+    align-items: center;
+  }
+}
+}
+
+
