@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { StaticImage } from "gatsby-plugin-image"
-import "../style/cardSection.scss"
+import "../style/CardSection.scss"
 
 
 export class CardSection extends Component {
