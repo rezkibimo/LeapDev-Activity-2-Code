@@ -5,20 +5,32 @@
     no-repeat padding-box;
 }
 
+.headerSize {
+  min-height: 75vh;
+  background: linear-gradient(
+    90deg,
+    $primary-vivid-blue 0%,
+    $secondary-dark-blue 100%
+  );
+}
+
 header {
-  background: linear-gradient(90deg, rgba(14,95,227,1) 0%, rgba(10,73,175,1) 100%);
   text-align: center;
   padding-top: 64px;
   padding-bottom: 64px;
-  div{
+  div {
     flex-wrap: wrap-reverse;
     margin-left: 5%;
     margin-right: 5%;
   }
-  button{
+  button {
     color: white;
+    font-weight: 700;
     background-color: $secondary-sky-blue;
     display: inline-block;
+    width: 180px;
+    height: 40px;
+    border-radius: 5px;
   }
 }
 
@@ -39,7 +51,7 @@ header {
   text-align: left;
 }
 
-.headerTextBox{
+.headerTextBox {
   font-size: small;
   color: white;
   text-align: left;
