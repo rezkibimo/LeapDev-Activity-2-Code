@@ -1,4 +1,4 @@
-$font-stack: Helvetica, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
 
 $primary-vivid-blue: #0e5fe3;
 $primary-black: #191919;
@@ -22,6 +22,7 @@ $lawconnect-gradient: linear-gradient(
 html {
   padding: none;
   margin: none;
+  font-family: 'Nunito', sans-serif;
 }
 
 .sectionContainer{
