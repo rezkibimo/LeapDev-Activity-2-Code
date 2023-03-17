@@ -2,7 +2,7 @@
 
 .cardHeader {
   color: $secondary-dark-blue;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 600;
   text-align: center;
 }
@@ -10,7 +10,7 @@
 .card-layout {
   width: 100vw;
   display: flex;
-  gap: 68px;
+  gap: 5vw;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -22,8 +22,12 @@
   max-width: 322px;
   max-height: 320px;
   card-image {
-    max-width: 322px;
-    max-height: 160px;
+    width: 322px !important;
+    height: 160px !important;
+  }
+  img{
+    width: 322px !important;
+    height: 160px !important;
   }
 
   .card-body {
@@ -31,12 +35,12 @@
     padding-left: 24px;
     padding-right: 24px;
     color: $primary-black;
-    font-size: 14px;
+    font-size: 0.875rem;
     letter-spacing: 0.08px;
 
     h4 {
       color: $secondary-dark-blue;
-      font-size: 18px;
+      font-size: 1.125rem;
       font-weight: bold;
     }
   }

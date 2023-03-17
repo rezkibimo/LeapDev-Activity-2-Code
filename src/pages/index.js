@@ -16,10 +16,10 @@ export default function Home() {
       </ul>
     </nav>
 
-    <header class="twoColoumnLayout">
+    <header class="twoColoumnLayoutHeader">
 
-      <div className="maxPW">
-        <h1 className="sectionHeader">The place to work with your lawyer</h1>
+      <div className="headerTextBox">
+        <h1 className="sectionTopHeader">The place to work with your lawyer</h1>
         <p>Your lawyer uses LawConnect to share information with you about your legal case in a privite, convenient and secure way.</p>
         <button>Create Free Account</button>
       </div>

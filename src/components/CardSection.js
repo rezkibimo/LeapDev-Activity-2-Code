@@ -18,11 +18,7 @@ export class CardSection extends Component {
                             <StaticImage
                                 src="../images/lc-safe-docs@2x.jpg"
                                 alt="Safe Documents"
-                                // width="160px"
-                                maxHeight="160px"
-                                
-                                //layout='fullWidth'
-                                // imgStyle={{ height: '160px', width: '322px' }}
+                                layout='constrained'
                             />
                         </div>
 
@@ -36,7 +32,7 @@ export class CardSection extends Component {
                         <StaticImage
                             src="../images/lc-work-remote@2x.jpg"
                             alt="Work remotely"
-                            layout="fullWidth"
+                            layout='constrained'
                         />
                         <div className="card-body">
                             <h4>Work remotely</h4>
@@ -48,7 +44,7 @@ export class CardSection extends Component {
                         <StaticImage
                             src="../images/lc-greater-collab@2x.jpg"
                             alt="Greater Collaboration"
-                            layout="fullWidth"
+                            layout='constrained'
                         />
                         <div className="card-body">
                             <h4>Greater Collaboration</h4>

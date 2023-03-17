@@ -5,34 +5,6 @@
     no-repeat padding-box;
 }
 
-.SectionHeader {
-  color: $secondary-dark-blue;
-  font-size: 24px;
-  text-align: center;
-}
-
-.twoColoumnLayout {
-  width: 100vw;
-  height: max-content;
-  display: flex;
-  gap: 128px;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-
-.imgColoumn {
-  width: 445px;
-}
-
-.maxPWidth {
-  max-width: 445px;
-}
-
-.firstColor {
-  background: $primary-light-greyish-blue;
-}
-
 header {
   background: linear-gradient(90deg, rgba(14,95,227,1) 0%, rgba(10,73,175,1) 100%);
   text-align: center;
@@ -40,7 +12,39 @@ header {
   padding-bottom: 64px;
   div{
     flex-wrap: wrap-reverse;
+    margin-left: 5%;
+    margin-right: 5%;
   }
+  button{
+    color: white;
+    background-color: $secondary-sky-blue;
+    display: inline-block;
+  }
+}
+
+.twoColoumnLayoutHeader {
+  width: 100vw;
+  height: max-content;
+  display: flex;
+  gap: 10vw;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  align-items: left;
+}
+
+.sectionTopHeader {
+  color: white;
+  font-size: 36px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.headerTextBox{
+  font-size: small;
+  color: white;
+  text-align: left;
+  overflow-wrap: break-word;
+  inline-size: 445px;
 }
 
 footer {

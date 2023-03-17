@@ -4,20 +4,47 @@
   width: 100vw;
   height: max-content;
   display: flex;
-  gap: 128px;
+  gap: 10vw;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+}
+
+.twoColoumnLayoutWrapReverse {
+  width: 100vw;
+  height: max-content;
+  display: flex;
+  gap: 10vw;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionContainer {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.sectionHeader {
+  color: $secondary-dark-blue;
 }
 
 .imgColoumn {
   width: 445px;
 }
 
-.maxPWidth {
-  max-width: 445px;
+.textBox {
+  inline-size: 445px;
+  overflow-wrap: break-word;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
-.firstColor {
+.withBGColor {
   background: $primary-light-greyish-blue;
+}
+
+.jumbotronMargin {
+  margin-left: 5%;
+  margin-right: 5%;
 }
