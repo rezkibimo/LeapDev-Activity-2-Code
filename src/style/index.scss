@@ -1,13 +1,8 @@
 @import "./global.scss";
 
-.background {
-  background: transparent linear-gradient(0deg, #0a49af 0%, #0e5fe3 100%) 0% 0%
-    no-repeat padding-box;
-}
-
 .headerSize {
   min-height: 75vh;
-  //background-image: url("../images/LawConnect-lcon-RGB.png");
+  //background-image: url("../images/LawConnect-lcon-sky-blue-RGB.svg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: right;
@@ -20,10 +15,45 @@
   );
 }
 
+.navigationBar {
+  width: 100%;
+
+  display: flex;
+  gap: 16px;
+
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  button {
+    color: white;
+    font-weight: 700;
+    background-color: $secondary-sky-blue;
+    display: inline-block;
+    width: 180px;
+    height: 40px;
+    border-radius: 5px;
+  }
+
+  li {
+    display: inline;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+  }
+}
+
 header {
   text-align: center;
   padding-top: 64px;
   padding-bottom: 64px;
+  p {
+    color: #fff;
+  }
   div {
     flex-wrap: wrap-reverse;
     // margin-left: 5%;
@@ -52,17 +82,17 @@ header {
 
 .sectionTopHeader {
   color: white;
-  font-size: 36px;
   font-weight: 600;
   text-align: left;
 }
 
 .headerTextBox {
-  font-size: small;
   color: white;
   text-align: left;
   overflow-wrap: break-word;
   inline-size: 445px;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 
 footer {
@@ -83,4 +113,31 @@ footer {
       align-items: center;
     }
   }
+}
+
+// Responsive
+
+@media screen and (max-width: 768px) {
+  .navigationBar {
+    display: flex;
+    gap: 16px;
+    justify-content: space-around;
+    align-items: flex-end;
+
+  }
+
+  .sectionTopHeader {
+    text-align: center;
+  }
+
+}
+
+
+//Hamburger Menu
+
+.hamburgerMenuIcon {
+  width: 32px;
+  height: 2px;
+  margin: 8px;
+  background-color: white;
 }

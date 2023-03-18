@@ -9,7 +9,39 @@ export default function Home() {
   return <div>
 
     <div className="headerSize">
+      <section class="navigationBar">
+        <div>
+          <StaticImage
+            src="../images/LawConnect-logo-reverse-mono-RGB.svg"
+            alt="Safe Documents"
+            height="32"
+            layout="constrained"
 
+          />
+        </div>
+        <div className="hideOnMobile">
+
+          <ul>
+            <li>For People</li>
+            <li>For Business</li>
+            <li>Contact</li>
+          </ul>
+
+        </div>
+        <div>
+          <ul>
+            <li className="showOnMobile hideOnDesktop">
+              <div className="hamburgerMenu">
+                <div className="hamburgerMenuIcon"></div>
+                <div className="hamburgerMenuIcon"></div>
+                <div className="hamburgerMenuIcon"></div>
+              </div>
+            </li>
+            <li className="hideOnMobile">Login</li>
+            <li className="hideOnMobile"><button>Create Free Account</button></li>
+          </ul>
+        </div>
+      </section>
       <header class="twoColoumnLayoutHeader">
 
         <div className="headerTextBox">
@@ -22,11 +54,22 @@ export default function Home() {
         </div>
 
         <div>
-          <StaticImage
-            src="../images/lc-hero-desktop@2x.png"
-            alt="Safe Documents"
-            width="611"
-          />
+
+          <div className="hideOnMobile">
+            <StaticImage
+              src="../images/lc-hero-desktop@2x.png"
+              alt="Safe Documents"
+              width="611"
+            />
+          </div>
+          <div className="showOnMobile hideOnDesktop">
+            <StaticImage
+              src="../images/lc-hero-mobile@2x.png"
+              alt="Safe Documents"
+              width="300"
+            />
+          </div>
+
         </div>
 
       </header>

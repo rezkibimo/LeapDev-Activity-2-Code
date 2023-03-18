@@ -11,7 +11,7 @@ export default class IndexJumbotron extends Component {
                 <section class="twoColoumnLayoutWrapReverse sectionContainer withBGColor">
 
                     <div className="textBox">
-                        <h1 className="sectionHeader">Signing Documents Electronically</h1>
+                        <h2 className="sectionHeader">Signing Documents Electronically</h2>
                         <p>Your lawyer will share documents related to your case with you, via LawConnect. Each time a document is shared by your lawyer, you will receive an email notification so you can access the document.</p>
                         <p> If you already have a LawConnect account, you can login and an alert will be in your notifications tab that a document has been shared.</p>
                     </div>
@@ -33,15 +33,25 @@ export default class IndexJumbotron extends Component {
 
                 <section class="twoColoumnLayout sectionContainer">
                     <div className="imgColoumn">
-                        <StaticImage
-                            src="../images/lc-sign-docs-desktop@2x.png"
-                            // srcset="../images/lc-sign-docs-desktop@2x.png 2x, ../images/lc-sign-docs-desktop@2x.png 1x"
-                            alt="Safe Documents"
-                            width="372"
-                        />
+
+                        <div className="hideOnMobile">
+                            <StaticImage
+                                src="../images/lc-sign-docs-desktop@2x.png"
+                                alt="Safe Documents"
+                                width="372"
+                            />
+                        </div>
+
+                        <div className="showOnMobile hideOnDesktop">
+                            <StaticImage
+                                src="../images/lc-sign-docs-mobile@2x.png"
+                                alt="Safe Documents"
+                                width="372"
+                            />
+                        </div>
                     </div>
                     <div className="textBox">
-                        <h1 className="sectionHeader">Signing Documents Electronically</h1>
+                        <h2 className="sectionHeader">Signing Documents Electronically</h2>
                         <p>LawConnect integrates with DocuSign to provide our users with a quick, easy and secure way to sign importnt legal documents online.</p>
                     </div>
                 </section>
