@@ -12,7 +12,7 @@ export default function Home() {
       <section class="navigationBar">
         <div>
           <StaticImage
-            src="../images/LawConnect-logo-reverse-mono-RGB.svg"
+            src="../images/LawConnect-logo-reverse-RGB.png"
             alt="Safe Documents"
             height="32"
             layout="constrained"
@@ -45,8 +45,7 @@ export default function Home() {
       <header class="twoColoumnLayoutHeader">
 
         <div className="headerTextBox">
-          <h1 className="sectionTopHeader">The place to work</h1>
-          <h1 className="sectionTopHeader"> with your lawyer</h1>
+          <h1 className="sectionTopHeader">The place to work with your lawyer</h1>
           <br></br>
           <p>Your lawyer uses LawConnect to share information with you about your legal case in a privite, convenient and secure way.</p>
           <br></br>
@@ -61,6 +60,7 @@ export default function Home() {
               alt="Safe Documents"
               width="611"
             />
+
           </div>
           <div className="showOnMobile hideOnDesktop">
             <StaticImage
@@ -78,7 +78,7 @@ export default function Home() {
     <CardSection />
 
     <IndexJumbotron />
-
+    <br></br>
     <footer>
 
     </footer>

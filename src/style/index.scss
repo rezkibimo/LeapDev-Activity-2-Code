@@ -1,18 +1,30 @@
 @import "./global.scss";
 
 .headerSize {
-  min-height: 75vh;
-  //background-image: url("../images/LawConnect-lcon-sky-blue-RGB.svg");
+  min-height: 65vh;
+  //background-repeat: no-repeat;
+  //background-attachment: fixed;
+  //background-position: right;
+  //position: relative;
+
+  background-image: url("../images/LawConnect-lcon-sky-blue-RGB.png");
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-position: right;
-  position: relative;
 
   background: linear-gradient(
     90deg,
     $primary-vivid-blue 0%,
     $secondary-dark-blue 100%
   );
+
+
+
+}
+
+.headerBackgroundImage {
+  background-image: url("../images/LawConnect-lcon-sky-blue-RGB.svg");
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 .navigationBar {
@@ -34,7 +46,8 @@ ul {
     display: inline-block;
     width: 180px;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 6px;
+    border-style: none;
   }
 
   li {
@@ -66,7 +79,8 @@ header {
     display: inline-block;
     width: 180px;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 6px;
+    border-style: none;
   }
 }
 
@@ -84,6 +98,8 @@ header {
   color: white;
   font-weight: 600;
   text-align: left;
+  overflow-wrap: break-word;
+  inline-size: 500px;
 }
 
 .headerTextBox {
@@ -100,38 +116,33 @@ footer {
   background-color: $primary-black;
 }
 
-@media screen and (max-width: 768px) {
-  header {
-    button {
-      color: white;
-      font-weight: 700;
-      background-color: $secondary-sky-blue;
-      display: inline-block;
-      width: 290px;
-      height: 48px;
-      border-radius: 5px;
-      align-items: center;
-    }
-  }
-}
-
 // Responsive
 
 @media screen and (max-width: 768px) {
-  .navigationBar {
-    display: flex;
-    gap: 16px;
-    justify-content: space-around;
-    align-items: flex-end;
+  header {
+    button {
+      width: 100%;
+      height: 48px;
+    }
 
+    p {
+      text-align: center;
+    }
   }
+
+  // .navigationBar {
+  //   display: flex;
+  //   gap: 16px;
+  //   justify-content: space-around;
+  //   align-items: flex-end;
+  // }
 
   .sectionTopHeader {
     text-align: center;
+    overflow-wrap: break-word;
+    inline-size: 338px;
   }
-
 }
-
 
 //Hamburger Menu
 

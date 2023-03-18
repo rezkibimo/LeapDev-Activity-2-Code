@@ -57,7 +57,7 @@ export class CardSection extends Component {
                     </div>
 
                 </section>
-
+                <br></br>
             </div>
 
 
